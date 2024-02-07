@@ -19,7 +19,7 @@ import com.educandoweb.course.dto.UserDTO;
 import com.educandoweb.course.services.UserService;
 
 @RestController
-@RequestMapping(value = "users")
+@RequestMapping(value = "/users")
 public class UserResource {
 
     @Autowired
